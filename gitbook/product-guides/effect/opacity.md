@@ -1,21 +1,17 @@
-### Opacity Classes
+# 🌫️ Opacity Classes
 
-The following utility classes control the opacity of elements:
+#### `.opacity-${digit}`  
+- **Description:** Sets the opacity of the element to the provided percentage value. 
 
-#### `.opacity-${digit}`
+- **CSS equivalent:** `opacity: {digit}%;`  
+- **Example usage:**  
+  ```html
+  <div class="opacity-50">
+    <!-- Content with 50% opacity -->
+  </div>
+  ```
 
-Sets the opacity of the element to the provided percentage value.
-
-CSS equivalent: `opacity: {digit}%;`
-
-Example usage:
-```html
-<div class="opacity-50">
-  <!-- Content with 50% opacity -->
-</div>
-```
-
-In the example above, the opacity of the element is set to 50%. You can replace "50" with the desired opacity percentage.
+In the example above, the opacity of the element is set to 50%. You can replace "50" with any desired opacity percentage (e.g., 25 for 25% opacity).
 
 ---
 

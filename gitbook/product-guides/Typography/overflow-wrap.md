@@ -1,25 +1,30 @@
-### Overflow Wrap Classes
+# ↩️ Overflow Wrap Utility Classes
 
-#### `.overflow-wrap-normal`
+#### **`.overflow-wrap-normal`**  
+- **Description:** Prevents words from breaking onto the next line, allowing them to overflow their container.  
+- **CSS equivalent:**  
+  ```css
+  overflow-wrap: normal;
+  ```  
+- **Example usage:**  
+  ```html
+  <p class="overflow-wrap-normal">
+    ThisIsAVeryLongWordThatWillNotWrapOntoTheNextLine.
+  </p>
+  ```  
 
-Allows words to overflow the container without breaking them.
+  ---
 
-CSS equivalent: `overflow-wrap: normal;`
+#### **`.overflow-wrap-break`**  
+- **Description:** Allows long words to break and wrap onto the next line.  
 
-Example usage:
-```html
-<p class="overflow-wrap-normal">ThisIsAVeryLongWordThatWillNotWrapOntoTheNextLine.</p>
-```
-
----
-
-#### `.overflow-wrap-break`
-
-Breaks long words and wraps them onto the next line.
-
-CSS equivalent: `overflow-wrap: break-word;`
-
-Example usage:
-```html
-<p class="overflow-wrap-break">ThisIsAVeryLongWordThatWillBreakAndWrapOntoTheNextLine.</p>
-```
+- **CSS equivalent:**  
+  ```css
+  overflow-wrap: break-word;
+  ```  
+- **Example usage:**  
+  ```html
+  <p class="overflow-wrap-break">
+    ThisIsAVeryLongWordThatWillBreakAndWrapOntoTheNextLine.
+  </p>
+  ```  
