@@ -1,131 +1,175 @@
-Background Position Classes
+# 📍Background Position Classes
 
-The following classes control the background position of elements:
+#### **`.bg-pos-top-left`**
 
-`.bg-pos-top-left`
-Sets the background position to the top left corner.
+- **Description:** Sets the background position to the top left corner.
+- **CSS equivalent:**
+    ```css
+    .bg-pos-top-left {
+      background-position: top left;
+    }
+    ```
+- **Example usage:**
+    ```html
+    <div class="bg-pos-top-left">
+      <!-- Content with background positioned at the top left corner -->
+    </div>
+    ```
+    In the example above, the background of the element will be positioned at the top left corner.
 
-CSS equivalent: `background-position: top left;`
+    ---
 
-Example usage:
-```html
-<div class="bg-pos-top-left">
-  <!-- Content with background positioned at the top left corner -->
-</div>
-```
+#### **`.bg-pos-top-center`**
 
-In the example above, the background of the element will be positioned at the top left corner.
+- **Description:** Sets the background position to the top center.
+- **CSS equivalent:**
+    ```css
+    .bg-pos-top-center {
+      background-position: top center;
+    }
+    ```
+- **Example usage:**
+    ```html
+    <div class="bg-pos-top-center">
+      <!-- Content with background positioned at the top center -->
+    </div>
+    ```
+    In the example above, the background of the element will be positioned at the top center.
 
-`.bg-pos-top-center`
-Sets the background position to the top center.
+    ---
 
-CSS equivalent: `background-position: top center;`
+#### **`.bg-pos-top-right`**
 
-Example usage:
-```html
-<div class="bg-pos-top-center">
-  <!-- Content with background positioned at the top center -->
-</div>
-```
+- **Description:** Sets the background position to the top right corner.
+- **CSS equivalent:**
+    ```css
+    .bg-pos-top-right {
+      background-position: top right;
+    }
+    ```
+- **Example usage:**
+    ```html
+    <div class="bg-pos-top-right">
+      <!-- Content with background positioned at the top right corner -->
+    </div>
+    ```
+    In the example above, the background of the element will be positioned at the top right corner.
 
-In the example above, the background of the element will be positioned at the top center.
+    ---
 
-`.bg-pos-top-right`
-Sets the background position to the top right corner.
+#### **`.bg-pos-center-left`**
 
-CSS equivalent: `background-position: top right;`
+- **Description:** Sets the background position to the center left.
+- **CSS equivalent:**
+    ```css
+    .bg-pos-center-left {
+      background-position: center left;
+    }
+    ```
+- **Example usage:**
+    ```html
+    <div class="bg-pos-center-left">
+      <!-- Content with background positioned at the center left -->
+    </div>
+    ```
+    In the example above, the background of the element will be positioned at the center left.
 
-Example usage:
-```html
-<div class="bg-pos-top-right">
-  <!-- Content with background positioned at the top right corner -->
-</div>
-```
+    ---
 
-In the example above, the background of the element will be positioned at the top right corner.
+#### **`.bg-pos-center`**
 
-`.bg-pos-center-left`
-Sets the background position to the center left.
+- **Description:** Sets the background position to the center.
+- **CSS equivalent:**
+    ```css
+    .bg-pos-center {
+      background-position: center;
+    }
+    ```
+- **Example usage:**
+    ```html
+    <div class="bg-pos-center">
+      <!-- Content with background positioned at the center -->
+    </div>
+    ```
+    In the example above, the background of the element will be positioned at the center.
 
-CSS equivalent: `background-position: center left;`
+    ---
 
-Example usage:
-```html
-<div class="bg-pos-center-left">
-  <!-- Content with background positioned at the center left -->
-</div>
-```
+#### **`.bg-pos-center-right`**
 
-In the example above, the background of the element will be positioned at the center left.
+- **Description:** Sets the background position to the center right.
+- **CSS equivalent:**
+    ```css
+    .bg-pos-center-right {
+      background-position: center right;
+    }
+    ```
+- **Example usage:**
+    ```html
+    <div class="bg-pos-center-right">
+      <!-- Content with background positioned at the center right -->
+    </div>
+    ```
+    In the example above, the background of the element will be positioned at the center right.
 
-`.bg-pos-center`
-Sets the background position to the center.
+    ---
 
-CSS equivalent: `background-position: center;`
+#### **`.bg-pos-bottom-left`**
 
-Example usage:
-```html
-<div class="bg-pos-center">
-  <!-- Content with background positioned at the center -->
-</div>
-```
+- **Description:** Sets the background position to the bottom left corner.
+- **CSS equivalent:**
+    ```css
+    .bg-pos-bottom-left {
+      background-position: bottom left;
+    }
+    ```
+- **Example usage:**
+    ```html
+    <div class="bg-pos-bottom-left">
+      <!-- Content with background positioned at the bottom left corner -->
+    </div>
+    ```
+    In the example above, the background of the element will be positioned at the bottom left corner.
 
-In the example above, the background of the element will be positioned at the center.
+    ---
 
-`.bg-pos-center-right`
-Sets the background position to the center right.
+#### **`.bg-pos-bottom-center`**
 
-CSS equivalent: `background-position: center right;`
+- **Description:** Sets the background position to the bottom center.
+- **CSS equivalent:**
+    ```css
+    .bg-pos-bottom-center {
+      background-position: bottom center;
+    }
+    ```
+- **Example usage:**
+    ```html
+    <div class="bg-pos-bottom-center">
+      <!-- Content with background positioned at the bottom center -->
+    </div>
+    ```
+    In the example above, the background of the element will be positioned at the bottom center.
 
-Example usage:
-```html
-<div class="bg-pos-center-right">
-  <!-- Content with background positioned at the center right -->
-</div>
-```
+    ---
 
-In the example above, the background of the element will be positioned at the center right.
+#### **`.bg-pos-bottom-right`**
 
-`.bg-pos-bottom-left`
-Sets the background position to the bottom left corner.
+- **Description:** Sets the background position to the bottom right corner.
 
-CSS equivalent: `background-position: bottom left;`
-
-Example usage:
-```html
-<div class="bg-pos-bottom-left">
-  <!-- Content with background positioned at the bottom left corner -->
-</div>
-```
-
-In the example above, the background of the element will be positioned at the bottom left corner.
-
-`.bg-pos-bottom-center`
-Sets the background position to the bottom center.
-
-CSS equivalent: `background-position: bottom center;`
-
-Example usage:
-```html
-<div class="bg-pos-bottom-center">
-  <!-- Content with background positioned at the bottom center -->
-</div>
-```
-
-In the example above, the background of the element will be positioned at the bottom center.
-
-`.bg-pos-bottom-right`
-Sets the background position to the bottom right corner.
-
-CSS equivalent: `background-position: bottom right;`
-
-Example usage:
-```html
-<div class="bg-pos-bottom-right">
-  <!-- Content with background positioned at the bottom right corner -->
-</div>
-```
-
-In the example above, the background of the element will be positioned at the bottom right corner.
+- **CSS equivalent:**
+    ```css
+    .bg-pos-bottom-right {
+      background-position: bottom right;
+    }
+    ```
+- **Example usage:**
+    ```html
+    <div class="bg-pos-bottom-right">
+      <!-- Content with background positioned at the bottom right corner -->
+    </div>
+    ```
+    In the example above, the background of the element will be positioned at the bottom right corner.
+  
+---
 
 These utility classes provide a convenient way to control the background position of elements, allowing you to customize where the background is positioned within the element's box.

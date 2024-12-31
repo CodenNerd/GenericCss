@@ -1,102 +1,139 @@
-### Text Decoration Classes
+# ✨ **Text Decoration Classes**
 
-#### `.no-decoration`
+#### **`.no-decoration`**  
+- **Description:** Removes text decoration.  
+- **CSS equivalent:**  
+  ```css
+  text-decoration: none;
+  ```  
+- **Example usage:**  
+  ```html
+  <span class="no-decoration">
+    This text has no decoration.
+  </span>
+  ```  
 
-Removes text decoration.
+    ---
 
-CSS equivalent: `text-decoration: none;`
+#### **`.underline`**  
+- **Description:** Adds an underline to the text.  
+- **CSS equivalent:**  
+  ```css
+  text-decoration: underline;
+  ```  
+- **Example usage:**  
+  ```html
+  <span class="underline">
+    This text is underlined.
+  </span>
+  ```  
 
-Example usage:
-```html
-<span class="no-decoration">This text has no decoration.</span>
-```
+    ---
 
-#### `.underline`
+#### **`.overline`**  
+- **Description:** Adds an overline to the text.  
+- **CSS equivalent:**  
+  ```css
+  text-decoration: overline;
+  ```  
+- **Example usage:**  
+  ```html
+  <span class="overline">
+    This text has an overline.
+  </span>
+  ```  
 
-Adds an underline to the text.
+    ---
 
-CSS equivalent: `text-decoration: underline;`
+#### **`.line-through`**  
+- **Description:** Adds a line-through to the text.  
+- **CSS equivalent:**  
+  ```css
+  text-decoration: line-through;
+  ```  
+- **Example usage:**  
+  ```html
+  <span class="line-through">
+    This text has a line-through.
+  </span>
+  ```  
 
-Example usage:
-```html
-<span class="underline">This text is underlined.</span>
-```
+    ---
 
-#### `.overline`
+### **Text Decoration Style Classes**
 
-Adds an overline to the text.
+#### **`.decoration-solid`**  
+- **Description:** Sets the text decoration style to solid.  
+- **CSS equivalent:**  
+  ```css
+  text-decoration-style: solid;
+  ```  
+- **Example usage:**  
+  ```html
+  <span class="decoration-solid">
+    This text has a solid text decoration style.
+  </span>
+  ```  
 
-CSS equivalent: `text-decoration: overline;`
+    ---
 
-Example usage:
-```html
-<span class="overline">This text has an overline.</span>
-```
+#### **`.decoration-double`**  
+- **Description:** Sets the text decoration style to double.  
+- **CSS equivalent:**  
+  ```css
+  text-decoration-style: double;
+  ```  
+- **Example usage:**  
+  ```html
+  <span class="decoration-double">
+    This text has a double text decoration style.
+  </span>
+  ```  
 
-#### `.line-through`
+    ---
 
-Adds a line-through to the text.
+#### **`.decoration-dotted`**  
+- **Description:** Sets the text decoration style to dotted.  
 
-CSS equivalent: `text-decoration: line-through;`
+- **CSS equivalent:**  
+  ```css
+  text-decoration-style: dotted;
+  ```  
+- **Example usage:**  
+  ```html
+  <span class="decoration-dotted">This text has a dotted text decoration style.</span>
+  ```
 
-Example usage:
-```html
-<span class="line-through">This text has a line-through.</span>
-```
+  ---
+  
+#### **`.decoration-dashed`**
 
-### Text Decoration Style Classes
+- **Description:** Sets the text decoration style to dashed.
 
-#### `.decoration-solid`
+- **CSS equivalent:** 
+  ```css
+  text-decoration-style: dashed;
+  ```
+- **Example usage:**
+  ```html
+  <span class="decoration-dashed">
+    This text has a dashed text decoration style.
+  </span>  
+  ```
 
-Sets the text decoration style to solid.
+  ---
 
-CSS equivalent: `text-decoration-style: solid;`
+#### **`.decoration-wavy`**
 
-Example usage:
-```html
-<span class="decoration-solid">This text has a solid text decoration style.</span>
-```
+- **Description:** Sets the text decoration style to wavy.
 
-#### `.decoration-double`
-
-Sets the text decoration style to double.
-
-CSS equivalent: `text-decoration-style: double;`
-
-Example usage:
-```html
-<span class="decoration-double">This text has a double text decoration style.</span>
-```
-
-#### `.decoration-dotted`
-
-Sets the text decoration style to dotted.
-
-CSS equivalent: `text-decoration-style: dotted;`
-
-Example usage:
-```html
-<span class="decoration-dotted">This text has a dotted text decoration style.</span>
-```
-
-#### `.decoration-dashed`
-
-Sets the text decoration style to dashed.
-
-CSS equivalent: `text-decoration-style: dashed;`
-
-Example usage:
-```html
-<span class="decoration-dashed">This text has a dashed text decoration style.</span>
-```
-
-#### `.decoration-wavy`
-
-Sets the text decoration style to wavy.
-
-CSS equivalent: `text-decoration-style: wavy;`
-
-Example usage:
-```html
-<span class="decoration-wavy">This text has a wavy text decoration style.</span>
-```
+- **CSS equivalent:** 
+  ```css
+  text-decoration-style: wavy;
+  ```
+- **Example usage:**
+  ```html
+  <span class="decoration-wavy">
+    This text has a wavy text decoration style.
+  </span>  
+  ```

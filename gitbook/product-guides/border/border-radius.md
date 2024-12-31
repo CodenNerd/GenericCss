@@ -1,87 +1,111 @@
-Border Radius Utility Classes
+# 📐 Border Radius Utility Classes  
 
-The following utility classes control the border-radius of elements:
+### **`.radius-{value}`**  
+- **Description:** Rounds all corners of the element by the specified radius value.  
 
-`.radius-{value}`
-Sets the border-radius property to the specified value, rounding all corners of the element.
+- **CSS equivalent:**  
+  ```css
+  .radius-{value} {
+    border-radius: {value};
+  }
+  ```  
+- **Example usage:**  
+  ```html
+  <div class="radius-4">
+    <!-- Element with 4px rounded corners -->
+  </div>
+  ```
 
-CSS equivalent: `border-radius: {value};`
+  ---
 
-Example usage:
-```html
-<div class="radius-4">
-  <!-- Content with border-radius 4px -->
-</div>
-```
+### **`.radius-t-r-{value}`**  
+- **Description:** Rounds the top-right corner of the element to the specified value.  
 
----
+- **CSS equivalent:**  
+  ```css
+  .radius-t-r-{value} {
+    border-top-right-radius: {value};
+  }
+  ```  
+- **Example usage:**  
+  ```html
+  <div class="radius-t-r-8">
+    <!-- Element with an 8px rounded top-right corner -->
+  </div>
+  ```
 
-`.radius-t-r-{value}`
-Sets the border-top-right-radius property to the specified value, rounding the top-right corner of the element.
+  ---
 
-CSS equivalent: `border-top-right-radius: {value};`
+### **`.radius-t-l-{value}`**  
+- **Description:** Rounds the top-left corner of the element to the specified value.  
 
-Example usage:
-```html
-<div class="radius-t-r-8">
-  <!-- Content with top-right corner rounded with radius 8px -->
-</div>
-```
+- **CSS equivalent:**  
+  ```css
+  .radius-t-l-{value} {
+    border-top-left-radius: {value};
+  }
+  ```  
+- **Example usage:**  
+  ```html
+  <div class="radius-t-l-8">
+    <!-- Element with an 8px rounded top-left corner -->
+  </div>
+  ```
 
----
+  ---
 
-`.radius-t-l-{value}`
-Sets the border-top-left-radius property to the specified value, rounding the top-left corner of the element.
+### **`.radius-b-r-{value}`**  
+- **Description:** Rounds the bottom-right corner of the element to the specified value.  
 
-CSS equivalent: `border-top-left-radius: {value};`
+- **CSS equivalent:**  
+  ```css
+  .radius-b-r-{value} {
+    border-bottom-right-radius: {value};
+  }
+  ```  
+- **Example usage:**  
+  ```html
+  <div class="radius-b-r-8">
+    <!-- Element with an 8px rounded bottom-right corner -->
+  </div>
+  ```
 
-Example usage:
-```html
-<div class="radius-t-l-8">
-  <!-- Content with top-left corner rounded with radius 8px -->
-</div>
-```
+  ---
 
----
+### **`.radius-b-l-{value}`**  
+- **Description:** Rounds the bottom-left corner of the element to the specified value.  
 
-`.radius-b-r-{value}`
-Sets the border-bottom-right-radius property to the specified value, rounding the bottom-right corner of the element.
+- **CSS equivalent:**  
+  ```css
+  .radius-b-l-{value} {
+    border-bottom-left-radius: {value};
+  }
+  ```  
+- **Example usage:**  
+  ```html
+  <div class="radius-b-l-8">
+    <!-- Element with an 8px rounded bottom-left corner -->
+  </div>
+  ```
 
-CSS equivalent: `border-bottom-right-radius: {value};`
+  ---
 
-Example usage:
-```html
-<div class="radius-b-r-8">
-  <!-- Content with bottom-right corner rounded with radius 8px -->
-</div>
-```
+### **`.round`**  
+- **Description:** Creates a circular shape by setting the border radius to 50%.  
 
----
+- **CSS equivalent:**  
+  ```css
+  .round {
+    border-radius: 50%;
+  }
+  ```  
+- **Example usage:**  
+  ```html
+  <div class="round">
+    <!-- Element with a circular shape -->
+  </div>
+  ```
 
-`.radius-b-l-{value}`
-Sets the border-bottom-left-radius property to the specified value, rounding the bottom-left corner of the element.
-
-CSS equivalent: `border-bottom-left-radius: {value};`
-
-Example usage:
-```html
-<div class="radius-b-l-8">
-  <!-- Content with bottom-left corner rounded with radius 8px -->
-</div>
-```
-
----
-
-`.round`
-Sets the border-radius property to 50%, creating a circular shape for the element.
-
-CSS equivalent: `border-radius: 50%;`
-
-Example usage:
-```html
-<div class="round">
-  <!-- Content with a circular shape -->
-</div>
-```
-
-These utility classes allow you to easily control the border-radius of elements, creating rounded corners or circular shapes based on your desired values.
+---  
+ 
+These utility classes simplify the process of styling elements with rounded corners or circular shapes, providing precise control over individual corners or all corners at once.
