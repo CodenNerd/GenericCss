@@ -25,5 +25,8 @@ In the example above, the box shadow is configured with a horizontal offset of 2
 ##### Note: Make sure to replace `${h}`, `${v}`, `${blur}`, `${spread}`, and `${color}` with appropriate numerical values and color names or codes when using these utility classes.
 
 ---
+##### Note: Make sure to replace `${h}`, `${v}`, `${blur}`, `${spread}`, and `${color}` with appropriate numerical values and color names or codes when using these utility classes.
+
+---
 
 These utility classes provide a convenient way to apply different box shadow configurations to elements, allowing you to add depth and visual effects to your design without writing custom CSS styles for each shadow variation.

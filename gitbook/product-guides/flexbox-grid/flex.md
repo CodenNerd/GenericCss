@@ -17,6 +17,8 @@
 
 ### Flex Grow Classes
 
+---
+
 #### `.flex-grow-{number}`
 
 - **Description:** Sets the flex grow factor of the element.
@@ -32,6 +34,8 @@
 
 ### Flex Shrink Classes
 
+---
+
 #### `.flex-shrink-{number}`
 
 - **Description:** Sets the flex shrink factor of the element.
@@ -46,6 +50,8 @@
 ---
 
 ### Flex Direction Classes
+
+---
 
 #### `.flex-row`
 
@@ -76,6 +82,8 @@ These classes allow you to easily control the direction of flex items within a f
 ---
 
 ### Flex Wrap Classes
+
+---
 
 #### `.flex-nowrap`
 

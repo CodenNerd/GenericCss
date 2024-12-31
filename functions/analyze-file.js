@@ -4,14 +4,13 @@ const { targetAttributes } = require("../store");
 function analyzeFile(filePath) {
     const fileContent = fs.readFileSync(filePath, "utf8");
     const fileExtension = filePath.split(".").pop();
-
     if (fileExtension === "jsx" || fileExtension === "tsx") {
         return extractClassNamesFromReactSyntax(fileContent);
-    } else if (fileExtension === "html") {
+    } else if (fileExtension === "html" || fileExtension === "vue") {
         return extractClassNamesFromHTML(fileContent);
-    }
+    } 
 
-    return [];
+    return extractClassNamesFromHTML(fileContent);
 }
 
 function extractClassNamesFromReactSyntax(fileContent) {
@@ -157,7 +156,7 @@ function extractClassNamesFromDynamicReactSyntax(
                                 } else {
                                     if (wordTerminators.includes(char)) {
                                         const className = cleanUpClassName(currentWord);
-                                        className && targetAttributes.add(`${currentWord}=`);
+                                        className && targetAttributes.push(`${currentWord}=`);
                                         currentWord = "";
                                     } else {
                                         currentWord += char;
@@ -178,7 +177,7 @@ function extractClassNamesFromDynamicReactSyntax(
 
         // console.log(currentWord);
 
-        if (targetAttributes.has(currentWord)) {
+        if (targetAttributes.includes(currentWord)) {
             //  console.log('Here:', targetAttributes.has(currentWord), {currentWord}, {targetAttributes} )
             inClassName = true;
             isClassNameStart = true;

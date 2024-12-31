@@ -15,6 +15,8 @@
 
 ### Grid Columns 1fr Classes
 
+---
+
 #### `.grid-{number}-cols-1fr`
 - **Description:** Sets the number of columns with a fraction unit of 1fr in a grid container.
 
@@ -28,6 +30,8 @@
 
 ### Grid Column Span Classes
 
+---
+
 #### `.grid-col-span-{number}`
 - **Description:** Sets the number of columns the element spans in a grid container.
 
@@ -40,6 +44,8 @@
 ---
 
 ### Grid Auto Flow Classes
+
+---
 
 #### `.grid-flow-row`
 - **Description:** Sets the grid auto flow to row.
@@ -98,7 +104,11 @@
 
 ---
 
+---
+
 ### Grid Auto Rows Classes
+
+---
 
 #### `.grid-auto-rows-{number}`
 - **Description:** Sets the size of grid auto rows in a grid container.
@@ -113,6 +123,8 @@
 
 ### Grid Column Gap Class
 
+---
+
 #### `.grid-cols-gap-{number}`
 - **Description:** Sets the gap between grid columns in a grid container.
 
@@ -125,6 +137,8 @@
 ---
 
 ### Grid Gap Classes
+
+---
 
 #### `.grid-gap-{number}`
 - **Description:** Sets the gap between grid rows and columns in a grid container.
@@ -139,6 +153,8 @@
 
 ### Grid Row Gap Class
 
+---
+
 #### `.grid-row-gap-{number}`
 - **Description:** Sets the gap between grid rows in a grid container.
 
@@ -151,6 +167,8 @@
 ---
 
 ### Column Gap Class
+
+---
 
 #### `.column-gap-{number}`
 - **Description:** Sets the gap between columns in a multi-column layout.
